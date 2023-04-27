@@ -1,0 +1,21 @@
+\documentclass[12pt,a4paper]{article}
+\input{Include.tex}
+
+\usepackage[style=verbose, backend=biber]{biblatex}
+\addbibresource{bibliography.bib}
+
+\title{Ein template für die K-Modul übungen}
+\author{Tim Moritz Blome}
+\date{Bielefeld, \today}
+\def\modul{Kulturwissenschaftliche Grundlagen}
+\def\modulverantwortlicher{Dr. Daniel Schubbe-Åkerlund}
+\def\semester{Sommersemester 2023}
+\begin{document}
+	\input{Titlepage}
+
+    \Blindtext
+	
+	\newpage
+	\pagestyle{empty}
+	\printbibliography
+\end{document}
